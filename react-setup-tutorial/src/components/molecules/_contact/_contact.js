@@ -32,7 +32,7 @@ const Contact = ({ value, contactName, contactEmail, id }) => {
   };
   return (
     <div data-testid="input" className={classes.styleContactMainContent}>
-      *<Typography className={classes.input}>{contactName}</Typography>
+      <Typography className={classes.input}>{contactName}</Typography>
       <Typography className={classes.input}>{contactEmail}</Typography>
       <div className={classes.button}>
         <Button value={value} onClick={handleClick}></Button>

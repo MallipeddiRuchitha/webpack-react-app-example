@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     paddingRight: "auto",
   },
   forms: {
-    backgroundColor: myTheme.palette.secondary.main,
+    //backgroundColor: myTheme.palette.secondary.main,
 
     color: "black",
 
@@ -29,15 +29,15 @@ const useStyles = makeStyles((theme) => ({
   },
   input: {
     paddingBottom: "10px",
-    paddingLeft: "20%",
+    //paddingLeft: "15%",
   },
   heading: {
-    paddingLeft: "20%",
+    // paddingLeft: "20%",
     paddingTop: "10px",
-    paddingBottom: "10px",
+    paddingBottom: "20px",
   },
   button: {
-    paddingLeft: "25%",
+    //paddingLeft: "%",
   },
   error: {
     color: myTheme.palette.myColor.redColor,
